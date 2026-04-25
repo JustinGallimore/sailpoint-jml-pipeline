@@ -30,7 +30,7 @@ The first step was creating a new source in SailPoint ISC to represent the HR sy
 
 
 
-!\[HR Source Created](../Screenshots/01\_hr\_source\_csv\_created.png)
+!\[HR Source Created](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/01\_hr\_source\_csv\_created.png)
 
 
 
@@ -46,7 +46,7 @@ The source was configured as a Delimited File type — the correct connector for
 
 
 
-!\[File Type Confirmed](../Screenshots/02\_hr\_source\_csv\_filetype\_confirmed.png)
+!\[File Type Confirmed](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/02\_hr\_source\_csv\_filetype\_confirmed.png)
 
 
 
@@ -62,7 +62,7 @@ SailPoint presents multiple source type options. Delimited File was selected to 
 
 
 
-!\[Select Source Type](../Screenshots/03\_create\_source\_select\_source\_type.png)
+!\[Select Source Type](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/03\_create\_source\_select\_source\_type.png)
 
 
 
@@ -78,7 +78,7 @@ SailPoint successfully located and loaded the Delimited File connector — confi
 
 
 
-!\[Connector Found](../Screenshots/04\_delimited\_file\_connector\_found.png)
+!\[Connector Found](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/04\_delimited\_file\_connector\_found.png)
 
 
 
@@ -94,7 +94,7 @@ The source configuration screen opened with all fields blank — ready for SFTP 
 
 
 
-!\[Source Config Blank](../Screenshots/05\_delimited\_file\_source\_config\_blank.png)
+!\[Source Config Blank](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/05\_delimited\_file\_source\_config\_blank.png)
 
 
 
@@ -110,7 +110,7 @@ SFTP connection details entered — host IP, port 22, username, and password poi
 
 
 
-!\[Source Config Filled](../Screenshots/06\_delimited\_file\_source\_config\_filled.png)
+!\[Source Config Filled](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/06\_delimited\_file\_source\_config\_filled.png)
 
 
 
@@ -126,7 +126,7 @@ The Virtual Appliance (VA) cluster confirmed as connected in SailPoint ISC — e
 
 
 
-!\[VA Cluster Connected](../Screenshots/06b\_VA\_cluster\_connected.png)
+!\[VA Cluster Connected](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/06b\_VA\_cluster\_connected.png)
 
 
 
@@ -142,7 +142,7 @@ After saving the source configuration it was reopened to verify all settings per
 
 
 
-!\[Source Reopened](../Screenshots/07\_source\_reopened\_from\_saved.png)
+!\[Source Reopened](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/07\_source\_reopened\_from\_saved.png)
 
 
 
@@ -158,7 +158,7 @@ The connection settings panel showing the SFTP host, port, and authentication de
 
 
 
-!\[Connection Settings](../Screenshots/08\_connection\_settings.png)
+!\[Connection Settings](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/08\_connection\_settings.png)
 
 
 
@@ -174,7 +174,7 @@ SSH daemon status verified on the SFTP server to confirm the service was running
 
 
 
-!\[SSHD Status Check](../Screenshots/09\_sshd\_status\_check.png)
+!\[SSHD Status Check](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/09\_sshd\_status\_check.png)
 
 
 
@@ -190,7 +190,7 @@ SSHD service start command executed to ensure the SFTP server was fully operatio
 
 
 
-!\[SSHD Start Attempt](../Screenshots/10\_sshd\_start\_attempt.png)
+!\[SSHD Start Attempt](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/10\_sshd\_start\_attempt.png)
 
 
 
@@ -206,7 +206,7 @@ Final SFTP connection settings confirmed — all fields populated and ready for 
 
 
 
-!\[Connection Settings SFTP](../Screenshots/11\_connection\_settings\_sftp\_configured.png)
+!\[Connection Settings SFTP](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/11\_connection\_settings\_sftp\_configured.png)
 
 
 
@@ -222,7 +222,7 @@ SailPoint ISC connection test executed against the Rebex SFTP server — confirm
 
 
 
-!\[Connection Test Result](../Screenshots/12\_connection\_test\_result.png)
+!\[Connection Test Result](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/12\_connection\_test\_result.png)
 
 
 
@@ -238,7 +238,7 @@ CSV parsing settings configured — defining how SailPoint reads and interprets 
 
 
 
-!\[Parsing Settings](../Screenshots/13\_parsing\_settings.png)
+!\[Parsing Settings](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/13\_parsing\_settings.png)
 
 
 
@@ -254,7 +254,7 @@ Comma delimiter selected as the file parsing format — matching the structure o
 
 
 
-!\[Parsing Settings Delimited](../Screenshots/14\_parsing\_settings\_delimited\_selected.png)
+!\[Parsing Settings Delimited](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/14\_parsing\_settings\_delimited\_selected.png)
 
 
 
@@ -270,7 +270,7 @@ File-level settings configured including file path on the SFTP server where Sail
 
 
 
-!\[File Settings](../Screenshots/15\_file\_settings.png)
+!\[File Settings](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/15\_file\_settings.png)
 
 
 
@@ -286,7 +286,7 @@ Account-level file settings configured — defining which columns in the CSV map
 
 
 
-!\[Account File Settings](../Screenshots/16\_account\_file\_settings.png)
+!\[Account File Settings](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/16\_account\_file\_settings.png)
 
 
 
@@ -302,7 +302,7 @@ The HR CSV file successfully uploaded to the SFTP server — confirming the file
 
 
 
-!\[CSV Uploaded](../Screenshots/17\_drivehq\_csv\_uploaded.png)
+!\[CSV Uploaded](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/17\_drivehq\_csv\_uploaded.png)
 
 
 
@@ -318,7 +318,7 @@ Final connection settings review confirming all SFTP parameters are correctly co
 
 
 
-!\[DriveHQ Connection Settings](../Screenshots/18\_connection\_settings\_drivehq\_configured.png)
+!\[DriveHQ Connection Settings](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/18\_connection\_settings\_drivehq\_configured.png)
 
 
 
@@ -334,7 +334,7 @@ Second connection test executed after file upload — confirming SailPoint can l
 
 
 
-!\[DriveHQ Connection Test](../Screenshots/19\_drivehq\_connection\_test\_result.png)
+!\[DriveHQ Connection Test](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/19\_drivehq\_connection\_test\_result.png)
 
 
 
@@ -354,7 +354,7 @@ The file path to the HR CSV on the SFTP server confirmed and locked in — this 
 
 
 
-!\[File Path Configured](../Screenshots/20\_file\_path\_configured.png)
+!\[File Path Configured](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/20\_file\_path\_configured.png)
 
 
 
@@ -370,7 +370,7 @@ CSV parsing rules finalized — SailPoint now knows how to read and split the HR
 
 
 
-!\[Parsing Configuration](../Screenshots/21\_parsing\_configuration.png)
+!\[Parsing Configuration](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/21\_parsing\_configuration.png)
 
 
 
@@ -386,7 +386,7 @@ The account schema screen in SailPoint ISC — this is where each CSV column is 
 
 
 
-!\[Account Schema](../Screenshots/22\_account\_schema.png)
+!\[Account Schema](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/22\_account\_schema.png)
 
 
 
@@ -402,7 +402,7 @@ Schema opened in edit mode to add and configure all required attributes from the
 
 
 
-!\[Schema Edit Mode](../Screenshots/23\_account\_schema\_edit\_mode.png)
+!\[Schema Edit Mode](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/23\_account\_schema\_edit\_mode.png)
 
 
 
@@ -418,7 +418,7 @@ All CSV columns added to the schema — id, givenName, familyName, e-mail, depar
 
 
 
-!\[Schema Updated](../Screenshots/24\_schema\_updated.png)
+!\[Schema Updated](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/24\_schema\_updated.png)
 
 
 
@@ -434,7 +434,7 @@ Final schema review confirming all attributes are correctly defined and the anch
 
 
 
-!\[Schema Complete](../Screenshots/25\_account\_schema\_complete.png)
+!\[Schema Complete](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/25\_account\_schema\_complete.png)
 
 
 
@@ -450,7 +450,7 @@ Full schema view showing all configured attributes in a single view — confirmi
 
 
 
-!\[Schema Full View](../Screenshots/26\_account\_schema\_full\_view.png)
+!\[Schema Full View](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/26\_account\_schema\_full\_view.png)
 
 
 
@@ -466,7 +466,7 @@ Account correlation configuration — defining how SailPoint matches CSV records
 
 
 
-!\[Account Correlation](../Screenshots/27\_account\_correlation.png)
+!\[Account Correlation](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/27\_account\_correlation.png)
 
 
 
@@ -482,7 +482,7 @@ Correlation criteria configuration screen opened — ready to define the matchin
 
 
 
-!\[Add Criteria](../Screenshots/27\_add\_criteria\_clicked.png)
+!\[Add Criteria](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/27\_add\_criteria\_clicked.png)
 
 
 
@@ -498,7 +498,7 @@ Correlation rule set — employeeId from the CSV matched to the corresponding Sa
 
 
 
-!\[Correlation Configured](../Screenshots/27\_account\_correlation\_configured.png)
+!\[Correlation Configured](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/27\_account\_correlation\_configured.png)
 
 
 
@@ -514,7 +514,7 @@ Correlation rule saved successfully — SailPoint will now correctly match incom
 
 
 
-!\[Correlation Saved](../Screenshots/28\_correlation\_saved\_success.png)
+!\[Correlation Saved](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/28\_correlation\_saved\_success.png)
 
 
 
@@ -532,7 +532,7 @@ The Identity Profile screen in SailPoint ISC — this is where the rules are def
 
 
 
-!\[Identity Profile Screen](../Screenshots/29\_identity\_profile\_screen.png)
+!\[Identity Profile Screen](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/29\_identity\_profile\_screen.png)
 
 
 
@@ -548,7 +548,7 @@ The Identity Profiles list page showing the HR\_CSV\_Lab\_Identity\_Profile crea
 
 
 
-!\[Identity Profiles Page](../Screenshots/30\_identity\_profiles\_page.png)
+!\[Identity Profiles Page](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/30\_identity\_profiles\_page.png)
 
 
 
@@ -564,7 +564,7 @@ New identity profile creation screen — naming the profile and linking it to th
 
 
 
-!\[Create Identity Profile](../Screenshots/31\_create\_identity\_profile.png)
+!\[Create Identity Profile](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/31\_create\_identity\_profile.png)
 
 
 
@@ -580,7 +580,7 @@ Identity attribute mappings configured — the username attribute mapped to the 
 
 
 
-!\[Mappings Username](../Screenshots/34\_mappings\_username.png)
+!\[Mappings Username](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/34\_mappings\_username.png)
 
 
 
@@ -596,7 +596,7 @@ Email and display name mappings configured — pulling givenName, familyName, an
 
 
 
-!\[Mappings Email](../Screenshots/35\_mappings\_email\_name\_configured.png)
+!\[Mappings Email](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/35\_mappings\_email\_name\_configured.png)
 
 
 
@@ -612,7 +612,7 @@ Department and Employee ID attribute mappings confirmed — ensuring these criti
 
 
 
-!\[Department And Employee ID](../Screenshots/36\_department\_and\_employee\_ID.png)
+!\[Department And Employee ID](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/36\_department\_and\_employee\_ID.png)
 
 
 
@@ -628,7 +628,7 @@ Start Date attribute mapping configured — pulling the startDate column from th
 
 
 
-!\[Start Date](../Screenshots/37\_start\_date.png)
+!\[Start Date](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/37\_start\_date.png)
 
 
 
@@ -644,7 +644,7 @@ Job title attribute mapping configured — pulling the title column from the CSV
 
 
 
-!\[Title](../Screenshots/38\_Title.png)
+!\[Title](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/38\_Title.png)
 
 
 
@@ -660,7 +660,7 @@ Identity profile status confirmed as active — the profile is live and will gov
 
 
 
-!\[Identity Profile Status](../Screenshots/39\_identity\_profile\_status.png)
+!\[Identity Profile Status](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/39\_identity\_profile\_status.png)
 
 
 
@@ -676,7 +676,7 @@ Family name attribute mapping updated — correcting the column reference to ens
 
 
 
-!\[CSV Updated Family Name](../Screenshots/40\_hr\_source\_csv\_updated\_familyName.png)
+!\[CSV Updated Family Name](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/40\_hr\_source\_csv\_updated\_familyName.png)
 
 
 
@@ -696,7 +696,7 @@ First aggregation run initiated — SailPoint connecting to the Rebex SFTP serve
 
 
 
-!\[Aggregation Started](../Screenshots/41\_aggregation\_started.png)
+!\[Aggregation Started](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/41\_aggregation\_started.png)
 
 
 
@@ -712,7 +712,7 @@ Initial aggregation results — confirming SailPoint successfully read and proce
 
 
 
-!\[Aggregation Results](../Screenshots/42\_aggregation\_results.png)
+!\[Aggregation Results](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/42\_aggregation\_results.png)
 
 
 
@@ -728,7 +728,7 @@ Three identity records created from the initial aggregation — James Carter (JG
 
 
 
-!\[Three Accounts Created](../Screenshots/43\_three\_accounts\_created.png)
+!\[Three Accounts Created](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/43\_three\_accounts\_created.png)
 
 
 
@@ -744,7 +744,7 @@ Rebex Tiny SFTP Server configuration panel — showing the server running on the
 
 
 
-!\[Rebex Connection Settings](../Screenshots/44\_rebex\_connection\_settings.png)
+!\[Rebex Connection Settings](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/44\_rebex\_connection\_settings.png)
 
 
 
@@ -760,7 +760,7 @@ Second aggregation run initiated after CSV schema corrections — verifying the 
 
 
 
-!\[Aggregation Run 2](../Screenshots/45\_aggregation\_run2\_started.png)
+!\[Aggregation Run 2](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/45\_aggregation\_run2\_started.png)
 
 
 
@@ -776,7 +776,7 @@ Second aggregation completed successfully — all three identities now showing c
 
 
 
-!\[Aggregation V2 Success](../Screenshots/45\_aggregationV2\_success.png)
+!\[Aggregation V2 Success](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/45\_aggregationV2\_success.png)
 
 
 
@@ -792,7 +792,7 @@ Final confirmation of successful aggregation — Objects Scanned: 3, Status: Suc
 
 
 
-!\[Aggregation Success](../Screenshots/45\_aggregation\_success.png)
+!\[Aggregation Success](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/45\_aggregation\_success.png)
 
 
 
@@ -812,7 +812,7 @@ James Carter's identity cube in SailPoint ISC — showing all attributes success
 
 
 
-!\[James Carter Identity Cube](../Screenshots/46\_james\_carter\_identity\_cube.png)
+!\[James Carter Identity Cube](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/46\_james\_carter\_identity\_cube.png)
 
 
 
@@ -828,7 +828,7 @@ James Carter confirmed as a Human Identity in SailPoint ISC — proving the corr
 
 
 
-!\[James Carter Found](../Screenshots/46\_james\_carter\_identity\_found.png)
+!\[James Carter Found](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/46\_james\_carter\_identity\_found.png)
 
 
 
@@ -844,7 +844,7 @@ James Carter's complete identity cube — all attributes verified and populated.
 
 
 
-!\[James Carter Complete](../Screenshots/47\_james\_carter\_identity\_cube.png)
+!\[James Carter Complete](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/47\_james\_carter\_identity\_cube.png)
 
 
 
@@ -860,7 +860,7 @@ James Carter identity fully verified — all required attributes present, no inc
 
 
 
-!\[James Carter Verified](../Screenshots/48\_james\_carter\_complete.png)
+!\[James Carter Verified](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/48\_james\_carter\_complete.png)
 
 
 
@@ -876,7 +876,7 @@ Maria Santos (JG9002) identity cube verified — all attributes populated correc
 
 
 
-!\[Maria Santos Complete](../Screenshots/49\_maria\_santos\_complete.png)
+!\[Maria Santos Complete](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/49\_maria\_santos\_complete.png)
 
 
 
@@ -892,7 +892,7 @@ Derek Williams (JG9003) identity cube verified — all attributes populated corr
 
 
 
-!\[Derek Williams Complete](../Screenshots/50\_derek\_williams\_complete.png)
+!\[Derek Williams Complete](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/50\_derek\_williams\_complete.png)
 
 
 
@@ -912,7 +912,7 @@ The Lifecycle Management screen inside the HR\_CSV\_Lab\_Identity\_Profile — s
 
 
 
-!\[Lifecycle Management](../Screenshots/51\_lifecycle\_management.png)
+!\[Lifecycle Management](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/51\_lifecycle\_management.png)
 
 
 
@@ -928,7 +928,7 @@ The Active lifecycle state enabled — toggle switched on and Apply Changes exec
 
 
 
-!\[Active Lifecycle Enabled](../Screenshots/52\_active\_lifecycle\_enabled.png)
+!\[Active Lifecycle Enabled](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/52\_active\_lifecycle\_enabled.png)
 
 
 
@@ -948,7 +948,7 @@ The completed Joiner workflow canvas in SailPoint ISC Workflow Builder — showi
 
 
 
-!\[Joiner Workflow Canvas](../Screenshots/53\_joiner\_workflow\_canvas.png)
+!\[Joiner Workflow Canvas](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/53\_joiner\_workflow\_canvas.png)
 
 
 
@@ -964,7 +964,7 @@ Joiner workflow test setup screen — showing the complete workflow chain on the
 
 
 
-!\[Workflow Test Setup](../Screenshots/54\_workflow\_test\_setup.png)
+!\[Workflow Test Setup](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/54\_workflow\_test\_setup.png)
 
 
 
@@ -980,7 +980,7 @@ Joiner workflow status changed to Enabled (green) in the SailPoint ISC workflow 
 
 
 
-!\[Workflow Enabled](../Screenshots/55\_workflow\_enabled.png)
+!\[Workflow Enabled](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/55\_workflow\_enabled.png)
 
 
 
@@ -996,7 +996,7 @@ Fourth employee (Sarah Mitchell — JG9004) added to the HR CSV and aggregation 
 
 
 
-!\[4 Objects Scanned](../Screenshots/56\_aggregation\_4\_objects\_scanned.png)
+!\[4 Objects Scanned](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/56\_aggregation\_4\_objects\_scanned.png)
 
 
 
@@ -1012,7 +1012,7 @@ Joiner workflow execution log showing Status: Complete — confirming the workfl
 
 
 
-!\[Joiner Execution](../Screenshots/57\_joiner\_workflow\_execution.png)
+!\[Joiner Execution](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/57\_joiner\_workflow\_execution.png)
 
 
 
@@ -1032,7 +1032,7 @@ The Terminated lifecycle state enabled in the HR\_CSV\_Lab\_Identity\_Profile �
 
 
 
-!\[Terminated Lifecycle](../Screenshots/58\_terminated\_lifecycle\_enabled.png)
+!\[Terminated Lifecycle](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/58\_terminated\_lifecycle\_enabled.png)
 
 
 
@@ -1048,7 +1048,7 @@ Email notification received in inbox from no-reply@sailpoint.com — confirming 
 
 
 
-!\[Joiner Email Proof](../Screenshots/58b\_joiner\_email\_proof.png)
+!\[Joiner Email Proof](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/58b\_joiner\_email\_proof.png)
 
 
 
@@ -1064,7 +1064,7 @@ The completed Leaver workflow canvas — showing the full automation chain: Trig
 
 
 
-!\[Leaver Workflow Canvas](../Screenshots/59\_leaver\_workflow\_canvas.png)
+!\[Leaver Workflow Canvas](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/59\_leaver\_workflow\_canvas.png)
 
 
 
@@ -1080,7 +1080,7 @@ Leaver workflow status changed to Enabled (green) — the offboarding automation
 
 
 
-!\[Leaver Workflow Enabled](../Screenshots/60\_leaver\_workflow\_enabled.png)
+!\[Leaver Workflow Enabled](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/60\_leaver\_workflow\_enabled.png)
 
 
 
@@ -1096,7 +1096,7 @@ Aggregation run after Sarah Mitchell's status changed to terminated in the HR CS
 
 
 
-!\[Leaver Aggregation](../Screenshots/61\_leaver\_aggregation\_success.png)
+!\[Leaver Aggregation](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/61\_leaver\_aggregation\_success.png)
 
 
 
@@ -1112,7 +1112,7 @@ Second aggregation confirmation showing the terminated status change successfull
 
 
 
-!\[Leaver Aggregation Confirmed](../Screenshots/62\_leaver\_aggregation\_success.png)
+!\[Leaver Aggregation Confirmed](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/62\_leaver\_aggregation\_success.png)
 
 
 
@@ -1128,7 +1128,7 @@ Sarah Mitchell's identity cube showing Lifecycle State: terminated — confirmin
 
 
 
-!\[Sarah Mitchell Terminated](../Screenshots/63\_sarah\_mitchell\_terminated.png)
+!\[Sarah Mitchell Terminated](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/63\_sarah\_mitchell\_terminated.png)
 
 
 
@@ -1144,7 +1144,7 @@ Leaver workflow execution log showing 2 results, Status: Complete — confirming
 
 
 
-!\[Leaver Execution](../Screenshots/64\_leaver\_workflow\_execution.png)
+!\[Leaver Execution](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/64\_leaver\_workflow\_execution.png)
 
 
 
@@ -1160,7 +1160,7 @@ Email notification received from no-reply@sailpoint.com with subject "Leaver Ale
 
 
 
-!\[Leaver Email Proof](../Screenshots/65\_leaver\_email\_proof.png)
+!\[Leaver Email Proof](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/65\_leaver\_email\_proof.png)
 
 
 
@@ -1176,7 +1176,7 @@ Clean Leaver email notification showing real employee data — confirming the fu
 
 
 
-!\[Leaver Email Clean](../Screenshots/65b\_leaver\_email\_proof\_clean.png)
+!\[Leaver Email Clean](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/65b\_leaver\_email\_proof\_clean.png)
 
 
 
@@ -1192,7 +1192,7 @@ Clean Joiner email notification showing James Carter's real employee data — Na
 
 
 
-!\[Joiner Email Clean](../Screenshots/66\_joiner\_email\_proof\_clean.png)
+!\[Joiner Email Clean](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/66\_joiner\_email\_proof\_clean.png)
 
 
 
@@ -1212,7 +1212,7 @@ The completed Mover workflow canvas — showing the full automation chain: Trigg
 
 
 
-!\[Mover Workflow Canvas](../Screenshots/67\_mover\_workflow\_canvas.png)
+!\[Mover Workflow Canvas](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/67\_mover\_workflow\_canvas.png)
 
 
 
@@ -1228,7 +1228,7 @@ Mover workflow status changed to Enabled (green) — the department transfer aut
 
 
 
-!\[Mover Workflow Enabled](../Screenshots/68\_mover\_workflow\_enabled.png)
+!\[Mover Workflow Enabled](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/68\_mover\_workflow\_enabled.png)
 
 
 
@@ -1244,7 +1244,7 @@ Aggregation run after James Carter's department changed from Engineering to IT i
 
 
 
-!\[Mover Aggregation](../Screenshots/69\_mover\_aggregation\_success.png)
+!\[Mover Aggregation](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/69\_mover\_aggregation\_success.png)
 
 
 
@@ -1260,7 +1260,7 @@ Mover workflow execution log showing Status: Complete — confirming the workflo
 
 
 
-!\[Mover Execution](../Screenshots/70\_mover\_workflow\_execution.png)
+!\[Mover Execution](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/70\_mover\_workflow\_execution.png)
 
 
 
@@ -1276,7 +1276,7 @@ Email notification received confirming James Carter's department transfer from E
 
 
 
-!\[Mover Email Proof](../Screenshots/71\_mover\_email\_proof.png)
+!\[Mover Email Proof](/JustinGallimore/sailpoint-jml-pipeline/raw/main/Screenshots/71\_mover\_email\_proof.png)
 
 
 
