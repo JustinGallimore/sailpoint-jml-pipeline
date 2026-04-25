@@ -1,6 +1,0 @@
-id,givenName,familyName,e-mail,department,title,employeeType,startDate,status
-JG9001,James,Carter,james.carter@yourcompany.com,IT,Systems Engineer,Employee,2025-01-15,active
-JG9002,Maria,Santos,maria.santos@yourcompany.com,Finance,Financial Analyst,Employee,2025-02-01,active
-JG9003,Derek,Williams,derek.williams@yourcompany.com,IT,Systems Administrator,Employee,2025-03-10,active
-JG9004,Sarah,Mitchell,sarah.mitchell@yourcompany.com,Marketing,Marketing Manager,Employee,2026-04-25,terminated
-JG9005,Marcus,Thompson,marcus.thompson@yourcompany.com,HR,HR Specialist,Employee,2026-04-25,active
