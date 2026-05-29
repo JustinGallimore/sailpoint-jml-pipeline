@@ -1,3 +1,5 @@
+## [VIDEO OVERVIEW OF THIS LAB](https://www.loom.com/share/93230f4bf64a4251a38c5727c83d79a8)
+
 # SailPoint ISC — JML Automation Pipeline
 ### Identity & Access Management | Enterprise Lab Project
 
